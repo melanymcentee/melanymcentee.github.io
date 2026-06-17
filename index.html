@@ -29,12 +29,55 @@ body {
     text-align: left;
     line-height: 1.7;
 }
+
+    header h1,
+header p {
+  position: relative;
+  z-index: 1;
+}
+
+    header h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+header p {
+  max-width: 800px;
+  margin: 0;
+}
+
+    header h1 {
+  font-family: Georgia, serif;
+  font-size: 3.5rem;
+  text-shadow: 2px 2px 8px rgba(0,0,0,0.6);
+}
+
+header p {
+  text-shadow: 1px 1px 6px rgba(0,0,0,0.6);
+}
+    
+  header::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.35);
+}
+
     
 header {
-    background: #3A4A3F;
-    color: white;
-    padding: 35px 20px;
-    text-align: center;
+  position: relative;
+  background-image: url("https://github.com/melanymcentee/melanymcentee.github.io/blob/main/_MG_0005.JPG?raw=true");
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+
+  color: white;
+  text-align: center;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 header h1 {
