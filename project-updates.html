@@ -1,9 +1,28 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Project Updates | McEntee Blog</title>
+  <title>McEntee Blog</title>
   <style>
 
+    header h1,
+header p {
+    max-width: 900px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 20px;
+}
+
+    nav {
+    margin-top: -10px;
+}
+
+    .container {
+    margin-top: 25px;
+}
+
+
+    
     .banner img {
     width: 100%;
     height: 350px;
@@ -14,11 +33,17 @@
 body {
     font-family: Georgia, "Times New Roman", serif;
     margin: 0;
-    background: #F4F1EA;
+    background: #EDE8DD;
     color: #3A322B;
     line-height: 1.7;
 }
 
+    .profile-pic {
+    width: 250px;
+    height: auto;
+    border-radius: 10px;
+}
+    
     .welcome-section {
     text-align: center;
 }
@@ -60,7 +85,7 @@ header p {
   content: "";
   position: absolute;
   inset: 0;
-  background: rgba(0, 0, 0, 0.35);
+  background: rgba(0, 0, 0, 0.25);
 }
 
     
@@ -69,7 +94,7 @@ header {
   background-image: url("wasatchsunrise.jpg");
   background-size: cover;
   background-position: center;
-  height: 400px;
+  height: 280px;
 
   color: white;
   text-align: center;
@@ -111,8 +136,12 @@ nav a:hover {
     box-shadow: 0 3px 12px rgba(0,0,0,0.08);
 }
 
+    .container {
+    border-top: 4px solid #B07A5A;
+}
+
 h2 {
-    color: #C46A3C;
+    color: #B07A5A;
     margin-top: 35px;
 }
 
@@ -137,12 +166,6 @@ img {
     align-items: flex-start;
     gap: 30px;
     margin-top: 20px;
-}
-
-.intro-section img {
-    width: 350px;
-    border-radius: 10px;
-    flex-shrink: 0;
 }
 
 .intro-text {
