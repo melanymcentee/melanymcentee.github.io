@@ -130,7 +130,42 @@ img {
     max-width: 100%;
     height: auto;
 }
-</style>
+
+  
+  .intro-section {
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.intro-section img {
+    width: 350px;
+    border-radius: 10px;
+    flex-shrink: 0;
+}
+
+.intro-text {
+    flex: 1;
+    text-align: left;
+}
+
+.intro-text p {
+    margin-top: 0;
+}
+
+/* Mobile-friendly */
+@media (max-width: 768px) {
+    .intro-section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .intro-text {
+        text-align: left;
+    }
+}
+  </style>
 </head>
 
 <body>
@@ -149,8 +184,22 @@ img {
 
 
 <div class="container">
-  <div class="welcome-section"><h2>Welcome to the McEntee Blog!</h2>
-  <p><img src="https://github.com/melanymcentee/melanymcentee.github.io/blob/main/_MG_0005.JPG?raw=true" width="400"><br><br>My name is Melany McEntee and I'm an incoming USU Master's student (Fall 2026) within the Department of Wildland Resources. Prior to beginning my coursework in the fall, I am starting field work this summer to begin collecting data for my thesis research. Under the guidance of Dr. David Stoner and in collaboration with Utah Division of Wildlife Resources (DWR), we will be calculating where recreationists may be at increased risk for moose conflict in Park City so we can conduct targeted outreach to try to keep the locals and their furry friends safer. </p>
+  <div class="welcome-section">
+    
+    <h2>Welcome to the McEntee Blog!</h2>
+
+<div class="intro-section">
+
+  <img src="https://github.com/melanymcentee/melanymcentee.github.io/blob/main/_MG_0005.JPG?raw=true" width="400"">
+
+  <div class="intro-text">
+    <p>
+      My name is Melany McEntee and I'm an incoming USU Master's student (Fall 2026) within the Department of Wildland Resources. Prior to beginning my coursework in the fall, I am starting field work this summer to begin collecting data for my thesis research. Under the guidance of Dr. David Stoner and in collaboration with Utah Division of Wildlife Resources (DWR), we will be calculating where recreationists may be at increased risk for moose conflict in Park City so we can conduct targeted outreach to try to keep the locals and their furry friends safer.
+    </p>
+  </div>
+
+</div>
+    
 
   <h2>Why study moose in Summit County?</h2>
   <p>
