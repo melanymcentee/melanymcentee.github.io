@@ -53,10 +53,10 @@ body {
     
 .profile-pic {
     float: left;
-    width: 250px;
+    width: 240px;
     height: auto;
     border-radius: 10px;
-    margin: 0 25px 15px 0;
+    margin: 5px 25px 10px 0;
 }
 
     .intro-section {
@@ -98,6 +98,18 @@ header p {
 
 header p {
   text-shadow: 1px 1px 6px rgba(0,0,0,0.6);
+}
+
+    .intro-content {
+    max-width: 750px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+    .intro-content::after {
+    content: "";
+    display: block;
+    clear: both;
 }
     
   header::before {
@@ -234,9 +246,19 @@ img {
     <h2>Welcome to the McEntee Blog!</h2>
 
 <div class="intro-section">
+    <div class="intro-content">
 
-<img class="profile-pic" src="https://github.com/melanymcentee/melanymcentee.github.io/blob/main/_MG_0005.JPG?raw=true">
 
+    <img class="profile-pic" src="https://github.com/melanymcentee/melanymcentee.github.io/blob/main/_MG_0005.JPG?raw=true" alt="Melany McEntee">
+
+    <p>
+      My name is Melany McEntee and I am an incoming USU Master’s student (Fall 2026)...
+    </p>
+
+    </div>
+  </div>
+
+</div>
   <div class="intro-text">
     <p>
       My name is Melany McEntee and I am an incoming USU Master’s student (Fall 2026) in the Department of Wildland Resources. Prior to beginning my coursework, I am conducting fieldwork this summer to begin data collection for my thesis research. Under the guidance of Dr. David Stoner and in collaboration with the Utah Division of Wildlife Resources (DWR), this project focuses on identifying areas of elevated risk for moose–human conflict in high-recreation landscapes across Summit County, Utah, with a particular emphasis on the greater Park City area. We are specifically interested in locations where intensive recreational use overlaps with high-quality moose habitat, as these conditions may increase the likelihood of human–moose encounters and conflict. By mapping and analyzing these patterns, we aim to support targeted outreach and management strategies that improve safety for both residents, visitors, and wildlife.
