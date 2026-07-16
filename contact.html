@@ -12,29 +12,49 @@
     text-align: center;
 }
 
-.moose-photo img {
-    max-width: 100%;
-    width: 500px;
-    height: auto;
-    border-radius: 12px;
-    box-shadow: 0 3px 12px rgba(0,0,0,0.15);
+.moose-photo img{
+    width:720px;
+    max-width:100%;
+    border-radius:12px;
+    box-shadow:0 3px 12px rgba(0,0,0,.15);
 }
 
-    .contact-card {
-    max-width: 500px;
-    margin: 30px auto;
-    padding: 25px;
+.contact-card {
+    max-width: 720px;
+    margin: 35px auto;
+    padding: 35px 45px;
     background: #F5F1E8;
-    border-left: 2px solid #C39A7A;
-    border-radius: 8px;
+    border-left: 4px solid #B07A5A;
+    border-radius: 12px;
+    box-shadow: 0 3px 12px rgba(0,0,0,0.08);
 }
 
     .contact-card {
     text-align: center;
 }
 
+.caption{
+    font-size:.85rem;
+    color:#666;
+    margin-top:8px;
+}
+.contact-content{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    gap:40px;
+}
 
+.contact-left{
+    flex:1;
+    text-align:center;
+}
 
+.contact-right{
+    flex:1;
+    border-left:1px solid #ddd;
+    padding-left:35px;
+}
 .contact-item {
     margin: 15px 0;
 }
@@ -99,6 +119,13 @@ body {
     text-align: center;
 }
 
+.section-divider{
+    text-align:center;
+    color:#9AAE98;
+    font-size:24px;
+    margin-bottom:25px;
+}
+    
 .welcome-section p {
     max-width: 750px;
     margin: 20px auto;
@@ -193,7 +220,8 @@ nav a:hover {
 
 h2 {
     color: #B07A5A;
-    margin-top: 35px;
+    margin-top: 15px;
+  margin-bottom:30px;
    text-align: center;
 }
 
@@ -265,44 +293,54 @@ img {
 <div class="container">
 
 <h2>Contact Information</h2>
-
+<div class="section-divider">──────── ❦ ────────</div>
 
 <div class="contact-card">
 
-    <h3>Melany McEntee</h3>
+<div class="contact-content">
 
-    <p>
-        Wildlife Technician<br>
-        Department of Wildland Resources<br>
-        Utah State University
-    </p>
+<div class="contact-left">
 
-    <div class="contact-item">
-        <span class="contact-label">Email:</span>
-        scannellmelany@gmail.com
-    </div>
+<h3>Melany McEntee</h3>
 
-    <div class="contact-item">
-        <span class="contact-label">Phone:</span>
-        (925) 895-6920
-    </div>
-
-    <div class="contact-item">
-        <span class="contact-label">LinkedIn:</span>
-        <a href="https://www.linkedin.com/in/melany-mcentee"
-           target="_blank"
-           rel="noopener noreferrer">
-           View Profile
-        </a>
-    </div>
-
-<div class="contact-item"> 
-  <span class="contact-label">Curriculum Vitae:</span>
- <a href="McEntee_CV.pdf"
-           target="_blank"
-           rel="noopener noreferrer"> View CV</a>
+<p>
+Wildlife Technician<br>
+Department of Wildland Resources<br>
+Utah State University
+</p>
 
 </div>
+
+<div class="contact-right">
+
+<div class="contact-item">
+<span class="contact-label">Email:</span><br>
+scannellmelany@gmail.com
+</div>
+
+<div class="contact-item">
+<span class="contact-label">Phone:</span><br>
+(925) 895-6920
+</div>
+
+<div class="contact-item">
+<span class="contact-label">LinkedIn:</span>
+<a href="https://www.linkedin.com/in/melany-mcentee">
+View Profile
+</a>
+</div>
+
+<div class="contact-item">
+<span class="contact-label">Curriculum Vitae:</span>
+<a href="McEntee_CV.pdf">
+View CV
+</a>
+</div>
+
+</div>
+
+</div>
+
 </div>
   
     <div class="moose-photo">
