@@ -20,7 +20,7 @@
     box-shadow: 0 3px 12px rgba(0,0,0,0.15);
 }
 
-    .contact-card {
+.contact-card {
     max-width: 760px;
     margin: 25px auto 35px;
     padding: 24px 38px;
@@ -28,15 +28,8 @@
     border: 1px solid #E4D5C3;
     border-radius: 10px;
     box-shadow: 0 2px 8px rgba(0,0,0,0.04);
-    text-align: center;
 }
 
-    .caption {
-    font-size: 0.8rem;
-    color: #6b625a;
-    font-style: italic;
-    margin-top: 6px;
-}
 .contact-content {
     display: flex;
     align-items: center;
@@ -52,9 +45,9 @@
     text-align: center;
 }
 
-.contact-left h3{
-    margin:0 0 10px;
-    font-size:2rem;
+.contact-left h3 {
+    margin: 0 0 10px;
+    font-size: 1.45rem;
 }
 
 .contact-left p {
@@ -63,19 +56,18 @@
 }
 
 .contact-right {
-    border-left: 1px solid #E4D5C3;
-    padding-left: 35px;
-    text-align: center;
+    border-left: 1px solid #E9DDCF;
+    padding-left: 38px;
+    text-align: left;
 }
-    
-    
+
 .contact-item {
     margin: 8px 0;
     line-height: 1.45;
 }
 
 .contact-label {
-    font-weight: 600;
+    font-weight: bold;
     color: #3A322B;
 }
 
@@ -86,8 +78,15 @@
 }
 
 .contact-card a:hover {
-    color: #704934;
+    color: #526B58;
     text-decoration: underline;
+}
+
+    .caption {
+    font-size: 0.8rem;
+    color: #6b625a;
+    font-style: italic;
+    margin-top: 6px;
 }
 
     
@@ -135,10 +134,10 @@ body {
     text-align: center;
 }
 
-.section-divider{
-    text-align:center;
-    color:#704934;
-    font-size:22px;
+.section-divider {
+    text-align: center;
+    color: #9A674A;
+    font-size: 20px;
     margin: 0 0 22px;
 }
     
@@ -279,6 +278,20 @@ img {
         flex-direction: column;
         align-items: center;
     }
+    .contact-content {
+        flex-direction: column;
+        gap: 22px;
+    }
+
+    .contact-right {
+        width: 100%;
+        box-sizing: border-box;
+        border-left: none;
+        border-top: 1px solid #E9DDCF;
+        padding: 20px 0 0;
+        text-align: center;
+    }
+}
 
     .intro-text {
         text-align: left;
@@ -309,7 +322,7 @@ img {
 <div class="container">
 
 <h2>Contact Information</h2>
-<div class="section-divider">──────────── ❦ ────────────</div>
+<div class="section-divider">─────────── ❦ ───────────</div>
 
 <div class="contact-card">
 
