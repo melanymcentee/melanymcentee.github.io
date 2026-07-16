@@ -20,13 +20,13 @@
 }
 
 .contact-card {
-    max-width: 720px;
-    margin: 35px auto;
-    padding: 35px 45px;
+    max-width: 760px;
+    margin: 25px auto 35px;
+    padding: 24px 38px;
     background: #F5F1E8;
-    border-left: 4px solid #B07A5A;
-    border-radius: 12px;
-    box-shadow: 0 3px 12px rgba(0,0,0,0.08);
+    border-left: 3px solid #B07A5A;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.06);
 }
 
     .contact-card {
@@ -39,25 +39,41 @@
     font-style: italic;
     margin-top: 6px;
 }
-.contact-content{
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
-    gap:40px;
+.contact-content {
+    display: flex;
+    align-items: center;
+    gap: 35px;
 }
 
-.contact-left{
-    flex:1;
-    text-align:center;
+.contact-left,
+.contact-right {
+    flex: 1;
 }
 
-.contact-right{
-    flex:1;
-    border-left:1px solid #ddd;
-    padding-left:35px;
+.contact-left {
+    text-align: center;
 }
+
+    .contact-left h3 {
+    margin: 0 0 14px;
+}
+
+.contact-left p {
+    margin: 0;
+    line-height: 1.5;
+}
+
+.contact-right {
+    border-left: 1px solid #ddd6ca;
+    padding-left: 35px;
+    text-align: center;
+}
+    
+}
+    
 .contact-item {
-    margin: 15px 0;
+    margin: 8px 0;
+    line-height: 1.45;
 }
 
 .contact-label {
@@ -123,8 +139,8 @@ body {
 .section-divider{
     text-align:center;
     color:#9AAE98;
-    font-size:24px;
-    margin-bottom:25px;
+    font-size:22px;
+    margin: 0 0 22px;
 }
     
 .welcome-section p {
@@ -221,8 +237,8 @@ nav a:hover {
 
 h2 {
     color: #B07A5A;
-    margin-top: 15px;
-  margin-bottom:30px;
+    margin-top: 20px;
+  margin-bottom:12px;
    text-align: center;
 }
 
@@ -293,7 +309,7 @@ img {
 
 <div class="container">
 
-<h2>Contact Information</h2>
+<>Contact Information</>
 <div class="section-divider">──────── ❦ ────────</div>
 
 <div class="contact-card">
@@ -315,12 +331,12 @@ Utah State University
 <div class="contact-right">
 
 <div class="contact-item">
-<span class="contact-label">Email:</span><br>
+<span class="contact-label">Email:</span>
 scannellmelany@gmail.com
 </div>
 
 <div class="contact-item">
-<span class="contact-label">Phone:</span><br>
+<span class="contact-label">Phone:</span>
 (925) 895-6920
 </div>
 
