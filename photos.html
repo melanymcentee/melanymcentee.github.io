@@ -213,7 +213,11 @@ img {
     object-fit: cover;
     border-radius: 10px;
 }
-
+.photo-item img.no-crop {
+    aspect-ratio: auto;
+    object-fit: contain;
+    height: auto;
+}
 .photo-item figcaption {
     margin-top: 10px;
     font-size: 0.95rem;
@@ -278,6 +282,7 @@ img {
 
         <figure class="photo-item">
             <img src="IMG_6990.jpeg"
+              class="no-crop"
                  alt="Beautiful, sunny day in Park City">
             <figcaption>
                 One of the stunning trails we are monitoring.
@@ -286,6 +291,7 @@ img {
 
         <figure class="photo-item">
             <img src="IMG_6992.jpeg"
+              class="no-crop"
                  alt="Bedding site?">
             <figcaption>
                 Potential area where a moose had been laying down.
